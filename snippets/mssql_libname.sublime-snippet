@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
-** libname mssql ODBC required = "DRIVER=SQL Server;Trusted_Connection=Yes;DATABASE=${2:OptMo};SERVER=${1:CTRHS-SQL2K\\SQL2K}" readbuff = 2000 bulkload = yes ;
-libname mssql OLEDB provider=SQLOLEDB datasource='${1:CTRHS-SQL2K\\SQL2K}' properties=("Integrated Security"=SSPI "Initial Catalog"=${2:OptMo}) readbuff = 2000 ;
+** libname mssql ODBC required = "DRIVER=SQL Server;Trusted_Connection=Yes;DATABASE=${2:Pathology};SERVER=${1:ghridbdev01}" readbuff = 2000 bulkload = yes ;
+libname mssql OLEDB provider=SQLOLEDB datasource='${1:ghridbdev01}' properties=("Integrated Security"=SSPI "Initial Catalog"=${2:Pathology}) readbuff = 2000 ;
 
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

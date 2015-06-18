@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-%include "//ghrisas/Warehouse/Sasdata/CRN_VDW/lib/StdVars.sas" ;
+%include "&GHRIDW_ROOT/Sasdata/CRN_VDW/lib/StdVars.sas" ;
 * %include vdw_macs ;
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

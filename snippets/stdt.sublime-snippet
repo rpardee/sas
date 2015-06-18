@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
-%include "//home/pardre1/SAS/login.sas" ;
-%include "//ghrisas/Warehouse/Sasdata/CRN_VDW/lib/StdVars_Teradata.sas" ;
+* %include "h:/SAS/login.sas" ;
+%include "&GHRIDW_ROOT/Sasdata/CRN_VDW/lib/StdVars_Teradata.sas" ;
 * %include vdw_macs ;
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

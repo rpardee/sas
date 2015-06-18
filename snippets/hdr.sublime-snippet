@@ -11,7 +11,7 @@
 * ${1:purpose}
 *********************************************/
 
-%include "\\\home\pardre1\SAS\Scripts\remoteactivate.sas" ;
+%include "h:/SAS/Scripts/remoteactivate.sas" ;
 
 options
   linesize  = 150

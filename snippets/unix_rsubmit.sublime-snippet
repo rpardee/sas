@@ -3,8 +3,8 @@
 libname s "//ghrisas/SASUser/pardre1" ;
 
 ** log on to unix and rsubmit ;
-%include '\\\\home\\pardre1\\SAS\\Scripts\\sasunxlogon.sas' ;
-%include '\\\\ghrisas\\warehouse\\Remote\\RemoteStartUnix.sas' ;
+%include 'h:/SAS/Scripts/sasunxlogon.sas' ;
+%include "&GHRIDW_ROOT/remote/RemoteStartUnix.sas" ;
 rsubmit ;
 
 ${1:code goes here}
