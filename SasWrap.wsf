@@ -76,7 +76,7 @@
                   ' & " -unbuflog " _
                   ' & " -memsize MAX"
 
-               WinShell.CurrentDirectory = "Q:\SAS64.V93\SASHome\SASFoundation\9.3\"
+               ' WinShell.CurrentDirectory = "Q:\SAS64.V93\SASHome\SASFoundation\9.3\"
                ' MsgBox "Current dir is '" & WinShell.CurrentDirectory & "'"
                ' MsgBox RunLine
                Call RenameListFile(ListFile)
