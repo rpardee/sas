@@ -1,8 +1,16 @@
 <snippet>
   <content><![CDATA[
-* %include "h:/SAS/login.sas" ;
 %include "&GHRIDW_ROOT/Sasdata/CRN_VDW/lib/StdVars_Teradata.sas" ;
-* %include vdw_macs ;
+${1:* %include vdw_macs ;}
+${2:libname mylib teradata
+  user              = "&clean_username@LDAP"
+  password          = "&password"
+  server            = "&td_prod"
+  schema            = "%sysget(username)"
+  multi_datasrc_opt = in_clause
+  connection        = global
+;}
+$0
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>stdt</tabTrigger>

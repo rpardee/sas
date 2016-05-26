@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-libname ${1:s} "${2://ghrisas/SASUser/pardre1}" ;
+libname ${1:s} "${2://home/pardre1/workingdata/}" ;
 $0
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
