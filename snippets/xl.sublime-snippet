@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 %let xls_file = ${1://server/share/file.xls} ;
-libname xl ODBC required = "Driver={Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)};dbq=&xls_file" preserve_tab_names = yes ;
-
+/* libname xl ODBC required = "Driver={Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)};dbq=&xls_file" preserve_tab_names = yes ; */
+libname xl excel "&xls_file" ;
 ${2:proc datasets library = xl ;
 run ;
 }
@@ -11,5 +11,5 @@ run ;
 	<tabTrigger>xl</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.sas</scope>
-	<description>excel odbc libname</description>
+	<description>excel libnames (pc files + odbc)</description>
 </snippet>
