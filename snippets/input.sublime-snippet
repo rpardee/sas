@@ -6,6 +6,7 @@ data ${1:gnu} ;
 		@1    ndc         \$char11.
 		@12   drug_name   \$char40.
 	;
+	infile datalines truncover ;
 datalines ;
 ${2:blah}
 run ;

@@ -6,7 +6,9 @@
 							schema            = "${2:&nuid}"
 							connection        = global
 							mode              = teradata
-${3:              fastload          = yes}
+${3:              fastload          = yes
+							dbmstemp					= yes
+}
 ;
 
 libname ${4:td} teradata &td_goo ${5:access = readonly};
