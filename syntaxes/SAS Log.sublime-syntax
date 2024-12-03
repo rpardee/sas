@@ -11,11 +11,11 @@ variables:
 
 contexts:
   main:
-    - match: (^(ERROR|WARNING)|Uninitialized| remerg|invalid).*
+    - match: (^(\d{4}-\d{2}-\d{2}T[0-9:,]+\s-\s)?(ERROR|WARNING)|Uninitialized| remerg|invalid).*
       push: problem
-    - match: ^(INFO|FYI|DIGIT|DIG IT)\b.*
+    - match: ^(\d{4}-\d{2}-\d{2}T[0-9:,]+\s-\s)?(INFO|FYI|DIGIT|DIG IT)\b.*
       push: info
-    - match: ^NOTE\b.*
+    - match: ^(\d{4}-\d{2}-\d{2}T[0-9:,]+\s-\s)?NOTE\b.*
       push: note
 
   problem:
