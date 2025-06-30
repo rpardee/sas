@@ -1,6 +1,8 @@
 <snippet>
 	<content><![CDATA[
-%include "&GHRIDW_ROOT/Sasdata/CRN_VDW/lib/StdVars.sas" ;
+%include "&GHRIDW_ROOT/Sasdata/CRN_VDW/lib/StdVars.sas" ; * windows ;
+* %include "&kpwhri_root/includes/stdvars.sas" ; * grid ;
+
 ${1:* %include vdw_macs ;}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
