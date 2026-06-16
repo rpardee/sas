@@ -53,7 +53,7 @@
   {"trigger": "_cesr_pro_survey_responses", "contents": "_cesr_pro_survey_responses"},
   {"trigger": "_cesr_pro_surveys", "contents": "_cesr_pro_surveys"},
   {"trigger": "_cesr_pro_types", "contents": "_cesr_pro_types"},
-  {"trigger": "_cesr_problemlist", "contents": "_cesr_problemlist"},
+  {"trigger": "_cesr_problemlist", "contents": "_cesr_problem_list"},
   {"trigger": "_cesr_rt_dx", "contents": "_cesr_rt_dx"},
   {"trigger": "_cesr_rt_field", "contents": "_cesr_rt_field"},
   {"trigger": "_cesr_rt_plan", "contents": "_cesr_rt_plan"},
