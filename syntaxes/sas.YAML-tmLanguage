@@ -90,7 +90,7 @@ repository:
         name: keyword.operator.arithmetic.sas
       - match: \b(?i:(eq|ne|gt|lt|ge|le|in|not|&|and|or|min|max))\b
         name: keyword.operator.comparison.sas
-      - match: ([¬<>^~]?=(:)?|>|<|\||!|¦|¬|^|~|<>|><|\|\|)
+      - match: ([¬<>^~]?=(:)?|>|<|\||!|¦|¬|\^|~|<>|><|\|\|)
         name: keyword.operator.sas
   quote:
     patterns:

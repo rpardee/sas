@@ -224,7 +224,7 @@ contexts:
       scope: keyword.operator.comparison.sas
     - match: '(?i)\b(?i:(not|and|or))\b'
       scope: keyword.operator.logical.sas
-    - match: '([¬<>^~]?=(:)?|>|<|\||!|¦|¬|^|~|<>|><|\|\|)'
+    - match: '([¬<>^~]?=(:)?|>|<|\||!|¦|¬|\^|~|<>|><|\|\|)'
       scope: keyword.operator.sas
 
 
