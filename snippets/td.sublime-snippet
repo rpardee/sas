@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 %let td_goo = server            = "&td_prod"
-							${1:user              = "&nuid@LDAP"
+							${1:user              = "&nuid@KRB5"
 							password          = "&cspassword"}
 							schema            = "${2:&nuid}"
 							connection        = global
