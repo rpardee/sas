@@ -399,7 +399,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>([¬&lt;&gt;^~]?=(:)?|&gt;|&lt;|\||!|¦|¬|^|~|&lt;&gt;|&gt;&lt;|\|\|)</string>
+					<string>([¬&lt;&gt;^~]?=(:)?|&gt;|&lt;|\||!|¦|¬|\^|~|&lt;&gt;|&gt;&lt;|\|\|)</string>
 					<key>name</key>
 					<string>keyword.operator.sas</string>
 				</dict>
